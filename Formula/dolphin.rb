@@ -11,7 +11,7 @@ class Dolphin < Formula
   depends_on "KDE-mac/kde/kf5-extra-cmake-modules" => :build
   depends_on "KDE-mac/kde/kf5-kdoctools" => :build
 
-  depends_on :ruby => ["2.4", :optional]
+  depends_on "ruby" => ["2.4", :optional]
   depends_on "KDE-mac/kde/konsole" => [:run, :optional]
 
   depends_on "KDE-mac/kde/kf5-breeze-icons"
